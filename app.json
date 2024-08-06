@@ -18,10 +18,25 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.senas.projeto_vistoria_pavcon"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0c3f089c-0743-4615-87c4-22e67e534c3c"
+      }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "permite $(PRODUCT_NAME) pra acessar tuas fotos ai man nunca te pedi nada",
+          "cameraPermission": "permite $(PRODUCT_NAME) pra acessar tua camera ai man nunca te pedi nada"
+        }
+      ]
+    ],
   }
 }
