@@ -14,7 +14,6 @@ import {
   FIREBASE_MEASUREMENT_ID
 } from '@env';
 
-// Sua configuração do Firebase
 const firebaseConfig = {
   apiKey: FIREBASE_API_KEY,
   authDomain: FIREBASE_AUTH_DOMAIN,
@@ -26,7 +25,6 @@ const firebaseConfig = {
   measurementId: FIREBASE_MEASUREMENT_ID
 };
 
-// Inicialize o Firebase
 const app = initializeApp(firebaseConfig);
 
 /**
